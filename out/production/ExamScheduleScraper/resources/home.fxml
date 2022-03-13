@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="642.0" prefWidth="1083.0" style="-fx-background-color: #3b3a3a; -fx-border-color: #34b8ff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchController">
+   <children>
+      <Label layoutX="295.0" layoutY="47.0" prefHeight="39.0" prefWidth="177.0" text="Exams" textFill="WHITE">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Line endX="117.0" layoutX="395.0" layoutY="112.0" startX="-100.0" stroke="#34b8ff" />
+      <Label alignment="CENTER" layoutX="42.0" layoutY="192.0" prefHeight="40.0" prefWidth="105.0" text="Faculty:" textFill="#fcfafa">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="faculty" layoutX="42.0" layoutY="230" prefHeight="25.0" prefWidth="234.0" promptText="Ex: MATH, CSCI, ECON" />
+      <Label alignment="CENTER" layoutX="42.0" layoutY="300.0" prefHeight="40.0" prefWidth="200.0" text=" Course Numbers:" textFill="#fcfafa">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="courseNums" layoutX="42.0" layoutY="340" prefHeight="25.0" prefWidth="234.0" promptText="Ex: 1000, 2000" />
+
+      <Button fx:id="viewButton" layoutX="102.0" layoutY="458.0" mnemonicParsing="false" onMouseClicked="#search" prefHeight="45.0" prefWidth="102.0" text="Search" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ListView fx:id="exams" editable="true" layoutX="295.0" layoutY="162.0" maxHeight="730.29" maxWidth="1000.0" prefHeight="438.0" prefWidth="675.0" style="-fx-border-color: #384f5d; -fx-border-width: 3px; -fx-min-width: 73%; -fx-min-height: 63%; " />
+   </children>
+</Pane>

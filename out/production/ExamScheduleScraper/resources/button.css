@@ -1,0 +1,17 @@
+
+.button
+{
+    -fx-background-color: #3c3c3c;
+    -fx-background-radius: 10px;
+}
+
+.button:hover
+{
+    -fx-background-color:#2b3640;
+}
+.list-view
+{
+    -fx-background-color: #3b3a3a ;
+    -fx-font-family: monospace;
+
+}
