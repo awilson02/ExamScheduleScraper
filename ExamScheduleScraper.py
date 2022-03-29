@@ -27,14 +27,17 @@ codes = ""
 for arg in args:
     codes += arg
 # Separating course numbers
-codes.replace(" ", "")
-codes.replace(",", "")
+codes =codes.replace(" ", "")
+codes = codes.replace(",", "")
 
 
 counter = 1
 codes = wrap(codes, 4)
 
 # Going through html soup to find courses and if found displaying exam times.
+date = soup.find_all('h1')
+
+print(date[0].text)
 for match in soup.find_all('td', text=faculty):
 
     courseID = match.find_next_sibling("td")
@@ -49,3 +52,4 @@ for match in soup.find_all('td', text=faculty):
             "Place: " + match.find_next_sibling("td").find_next_sibling("td").find_next_sibling("td").find_next_sibling(
                 "td").find_next_sibling("td").text)
         counter = counter + 1
+
