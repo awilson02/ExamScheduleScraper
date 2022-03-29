@@ -4,6 +4,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class Main extends Application {
 
     public static Stage primaryStage = new Stage();
@@ -17,10 +19,14 @@ public class Main extends Application {
         home.getStylesheets().add(getClass().getResource("resources/button.css").toExternalForm());
 
 
-        primaryStage.setTitle("To Do Manger");
+        primaryStage.setTitle("Exam");
         primaryStage.setScene(home);
         primaryStage.show();
 
     }
-
+    public static void main(String[] args) throws IOException {
+        launch(args);
+    }
 }
+
+
