@@ -1,7 +1,7 @@
 
 ## Author
 
-* Alexander Wilson alexwilson@comcast.net
+* Alexander Wilson alexpwilson2@gmail.com
 
 ## Description 
 This program using a javafx UI and a Python script to find your exams schedule for Dalhousie Hallifax campus. 
