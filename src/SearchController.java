@@ -41,8 +41,13 @@ public class SearchController {
 
         for(int x =0; x < response.size(); x++)
         {
-
-            exams.getItems().add(response.get(x));
+            if(response.get(x).equals( "Place: �"))
+            {
+                exams.getItems().add("Place: Not Listed");
+            }
+            else {
+                exams.getItems().add(response.get(x));
+            }
             if(response.get(x).contains("Exam"))
             {
                 exams.getItems().add(" ");

@@ -48,6 +48,7 @@ for match in soup.find_all('td', text=faculty):
         print(
             "Time: " + match.find_next_sibling("td").find_next_sibling("td").find_next_sibling("td").find_next_sibling(
                 "td").text)
+
         print(
             "Place: " + match.find_next_sibling("td").find_next_sibling("td").find_next_sibling("td").find_next_sibling(
                 "td").find_next_sibling("td").text)

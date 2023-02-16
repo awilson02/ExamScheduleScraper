@@ -11,9 +11,9 @@ Ex: Faculty can be CSCI Course Number can be 3136
 
 This project uses 
 
-*javafx 15 
-*java 14
-*Python 3
-*Python's bs4 (BeautifulSoup)
-*Python's Textwrap 
-*Link for where exams are found https://www.dal.ca/academics/exam_schedule/halifax_campus_exam_schedule.html
+* javafx 15 
+* java 14
+* Python 3
+* Python's bs4 (BeautifulSoup)
+* Python's Textwrap 
+* Link for where exams are found https://www.dal.ca/academics/exam_schedule/halifax_campus_exam_schedule.html
