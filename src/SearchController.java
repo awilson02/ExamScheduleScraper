@@ -41,7 +41,7 @@ public class SearchController {
 
         for(int x =0; x < response.size(); x++)
         {
-            if(response.get(x).equals( "Place: �"))
+            if(response.get(x).equals( "Place: �") ||response.get(x).equals( "Place: ") )
             {
                 exams.getItems().add("Place: Not Listed");
             }

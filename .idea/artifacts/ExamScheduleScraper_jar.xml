@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="ExamScheduleScraper:jar">
+  <artifact type="jar" build-on-make="true" name="ExamScheduleScraper:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/ExamScheduleScraper_jar</output-path>
     <root id="archive" name="ExamScheduleScraper.jar">
       <element id="module-output" name="ExamScheduleScraper" />
