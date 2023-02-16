@@ -19,9 +19,11 @@ This project uses
 * Python's Textwrap 
 * Link for where exams are found https://www.dal.ca/academics/exam_schedule/halifax_campus_exam_schedule.html
 
+
 ## To Run 
 * Put Jar and javafx-sdk-15.0.1 and the ExamScheduleScraper in same directory
 * type command 
     java --module-path "javafx-sdk-15.0.1\lib" --add-modules javafx.controls,javafx.fxml -jar ExamScheduleScraper.jar
     
 * make python and java are setup 
+
