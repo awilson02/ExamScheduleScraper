@@ -6,7 +6,7 @@
 ## Description 
 This program using a javafx UI and a Python script to find your exams schedule for Dalhousie Hallifax campus. 
 It also handles users in put for errors like in the example below 
-![alt text](https://github.com/awilson02/ExamScheduleScraper/tree/master/image/image.PNG)
+![alt text](https://github.com/awilson02/ExamScheduleScraper/blob/master/image/image.PNG)
 
 ## Resources
 
